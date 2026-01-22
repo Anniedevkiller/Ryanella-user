@@ -11,7 +11,10 @@ import {
     Users,
     Settings,
     LogOut,
-    ChevronRight
+    ChevronRight,
+    Ticket,
+    ClipboardList,
+    BarChart3
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -22,6 +25,9 @@ const sidebarLinks = [
     { name: "Categories", href: "/admin/categories", icon: ListTree },
     { name: "Orders", href: "/admin/orders", icon: ShoppingBag },
     { name: "Customers", href: "/admin/customers", icon: Users },
+    { name: "Coupons", href: "/admin/coupons", icon: Ticket },
+    { name: "Inventory", href: "/admin/inventory", icon: ClipboardList },
+    { name: "Analytics", href: "/admin/analytics", icon: BarChart3 },
     { name: "Settings", href: "/admin/settings", icon: Settings },
 ];
 
