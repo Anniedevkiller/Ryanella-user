@@ -2,18 +2,38 @@ export const CATEGORIES = [
     {
         name: "Women",
         slug: "women",
+        description: "Elegant silhouettes for the modern muse.",
+        featuredImage: "/images/ui/women_teaser.png",
         subcategories: ["Dresses", "Tops", "Two-Piece Sets", "Jumpsuits", "Skirts", "Lounge Wear"],
     },
     {
         name: "Men",
         slug: "men",
+        description: "Tailored sophistication for the bold gentleman.",
+        featuredImage: "/images/ui/men_teaser.png",
         subcategories: ["Shirts", "Trousers", "Casual Wear", "Native Wear", "Jackets"],
     },
     {
         name: "Accessories",
         slug: "accessories",
-        subcategories: ["Bags", "Sunglasses", "Belts"],
+        description: "The finishing touches to your masterpiece.",
+        featuredImage: "/images/ui/accessories_teaser.png",
+        subcategories: ["Bags", "Sunglasses", "Belts", "Jewelry"],
     },
+    {
+        name: "New Arrivals",
+        slug: "new-arrivals",
+        description: "Freshly curated pieces for the season.",
+        featuredImage: "/images/ui/women_teaser.png",
+        subcategories: ["Latest Drop", "Coming Soon"],
+    },
+    {
+        name: "Sale",
+        slug: "sale",
+        description: "Timeless luxury at exceptional value.",
+        featuredImage: "/images/ui/men_teaser.png",
+        subcategories: ["Clearance", "Seasonal Offer"],
+    }
 ];
 
 export const PRODUCTS = [

@@ -9,6 +9,8 @@ import { ProductCard } from "@/components/product/product-card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
+import { CategoryQuickNav } from "@/components/sections/category-quick-nav";
+
 export default function Home() {
   const [products, setProducts] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
@@ -31,6 +33,9 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Navbar />
+      <div className="pt-24 lg:pt-28 bg-white">
+        <CategoryQuickNav />
+      </div>
       <Hero />
 
       <FeaturedCollections />
